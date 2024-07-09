@@ -1,0 +1,296 @@
+body{
+    background-color:rgb(10, 10, 10)
+}
+.container{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(54, 51, 51);
+    gap: 1rem;
+}
+.Home{
+    color: rgb(255, 140, 0);
+    font-size: x-large;
+    background-color: rgb(27, 25, 25);
+    width: 75rem;
+    height: 25rem;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    animation: fadeIn 2s ease-in-out;
+}
+.nav-item:hover {
+    background-color: orange;
+    color: #080807;
+} 
+a,.skill,.project,.about,.contact{
+    color: rgb(253, 141, 4);
+}
+.skill{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 70px;
+    gap: 5rem;
+    background-color: rgb(27, 25, 25);
+    width: 75rem;
+    animation: fadeIn 2s ease-in-out;
+}
+.contact{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(27, 25, 25);
+    margin: 80px;
+    animation: fadeIn 2s ease-in-out;
+}
+.about{
+    font-size:x-large;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    background-color:  rgb(27, 25, 25);;
+}
+.project{
+    font-size: large;
+    animation: fadeIn 2s ease-in-out;
+}
+.contact-item{
+    margin: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #080807;
+    background-color: #f57a07;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: orange;
+    transform: scale(1.05);
+} 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pro-1, .pro-2, .pro-3, .pro-4 {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(27, 25, 25); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 75%;
+    height: 35rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    margin: 50px;
+}
+
+h1 {
+    color: rgb(253, 141, 4);
+}
+
+h2, h4 {
+    color: rgb(253, 141, 4);
+}
+
+p {
+    color: rgb(253, 141, 4);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0; 
+    font-size: 20px;
+    color: #080807;
+    background-color: #f57a07;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: orangered;
+    transform: scale(1.05);
+}
+
+/* body {
+    background-color: #333333; 
+}
+
+.container {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    background-color: #4d4d4d; 
+    gap: 1rem;
+}
+
+.Home {
+    color: #ffffff; 
+    font-size: x-large;
+    background-color: #27ae60; 
+    width: 75rem;
+    height: 25rem;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.nav-item:hover {
+    background-color: #ffffff; 
+    color: #333333; 
+}
+
+a, .skill, .project, .about, .contact {
+    color: #ffffff; 
+}
+
+.skill {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 70px;
+    gap: 5rem;
+    background-color: #27ae60; 
+    width: 75rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.contact {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #27ae60; 
+    margin: 80px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.about {
+    font-size: x-large;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    background-color: #27ae60; 
+}
+
+.project {
+    font-size: large;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.contact-item {
+    margin: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: #333333; 
+    background-color: #ffffff; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #bdc3c7; 
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pro-1, .pro-2, .pro-3, .pro-4 {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #27ae60; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 75%;
+    height: 35rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    margin: 50px;
+}
+
+h1 {
+    color: #ffffff; 
+}
+
+h2, h4 {
+    color: #ffffff; 
+}
+
+p {
+    color: #ffffff; 
+} */
+
+
+
+
+
+
+  
+
+
