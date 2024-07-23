@@ -251,6 +251,7 @@ p {
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        min-height: 20rem;
     }
     body{
         height:500px;
@@ -284,6 +285,12 @@ p {
 
     .container {
         font-size: x-large;
+    }
+    .Home {
+        width: 95%;
+        margin-top: 5rem;
+        padding: 1.5rem;
+        font-size: large;
     }
 
     .Home, .skill, .about, .project, .contact {
@@ -341,6 +348,13 @@ p {
         margin-top: 20px;
         padding: 10px;
         font-size: small;
+    }
+    .Home {
+        width: 100%;
+        margin-top: 3rem;
+        padding: 1rem;
+        font-size: medium;
+        min-height: 15rem;
     }
 
     .pro-1, .pro-2, .pro-3, .pro-4, .pro-5, .pro-6 {
