@@ -296,7 +296,7 @@ p {
 
     .resume-button {
        position: relative;
-       right: 200px;
+       right: 350px;
     }
 
     nav .nav-item {
@@ -331,6 +331,7 @@ p {
     .Home, .skill, .about, .project, .contact {
         margin-top: 20px;
         padding: 10px;
+        font-size: small;
     }
 
     .pro-1, .pro-2, .pro-3, .pro-4, .pro-5, .pro-6 {
