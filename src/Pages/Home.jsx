@@ -7,7 +7,7 @@ const Home = () => {
         <p style={{textAlign: "center"}}>Welcome to my portfolio! I am Nivetha Shree, a skilled full stack developer specializing in the MERN stack.
            With a passion for creating responsive web applications, I bring expertise in frontend development with React.js and Redux, backend development using Node.js and Express.js, and database management with MongoDB. 
            Explore my projects and skills to see how I can contribute to your next development initiative.</p>
-           <a style={{marginLeft: 520}} href="file:///C:/Users/nivet/Downloads/Nivetha_Resume.pdf" target="_blank" rel="noopener noreferrer">View my Resume</a>
+           <a style={{marginLeft: 520}} className="button resume-button" href="file:///C:/Users/nivet/Downloads/Nivetha_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
     );
 }

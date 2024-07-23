@@ -9,16 +9,15 @@ import Skills from './Pages/Skills';
 const  App = () => {
 
   return (
+    <BrowserRouter>
          <div className='main'>
-         <BrowserRouter>
           <nav className='container'>
             <Link className='nav-item' to="/">Home</Link>
             <Link className='nav-item' to="/about">About</Link>
             <Link className='nav-item' to="/skills">Skills</Link>
             <Link className='nav-item' to="/project">Project</Link>
             <Link className='nav-item' to="/contact">Contact</Link>
-          </nav>
-
+             </nav>
     
     <Routes>
       <Route path='/' element={<Home />} />
@@ -27,9 +26,10 @@ const  App = () => {
       <Route path='/project' element={<Project/>} />
       <Route path='/contact' element={<Contact/>} />
     </Routes>
-    </BrowserRouter>
-    </div>
+        </div>
+        </BrowserRouter>
   );
 }
 
-export default App
+export default App;
+
