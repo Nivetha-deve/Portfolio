@@ -294,6 +294,11 @@ p {
         margin-bottom: 2rem;
     }
 
+    .resume-button {
+       position: relative;
+       right: 200px;
+    }
+
     nav .nav-item {
         padding: 0.5rem;
     }
