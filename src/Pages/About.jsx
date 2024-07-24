@@ -5,8 +5,8 @@ const About = () => {
         <h1>About</h1>
         <p>
           I have completed a full stack development (MERN) certification course
-          at GUVI IIT Madras. This intensive 6-month course, from December 2023
-          to June 2024, equipped me with the skills and knowledge to develop
+          at GUVI IIT Madras. This intensive 6-month course, from November 2023
+          to March 2024, equipped me with the skills and knowledge to develop
           robust and scalable web applications using the MERN stack.
         </p>
         <p>
