@@ -1,3 +1,4 @@
+import Resume from '../assets/Nivedha.pdf'
 const Home = () => {
   return (
     <div className="Home">
@@ -14,7 +15,7 @@ const Home = () => {
       </p>
       <a
         className="button resume-button"
-        href="file:///C:/Users/nivet/Downloads/Nivetha_Resume.pdf"
+        href={Resume}
         target="_blank"
         rel="noopener noreferrer"
       >
