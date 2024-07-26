@@ -1,4 +1,4 @@
-import Resume from '../assets/Nivedha.pdf'
+import Resume from '../assets/Nivetha_resume.pdf'
 const Home = () => {
   return (
     <div className="Home">
